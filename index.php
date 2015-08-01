@@ -21,7 +21,7 @@ along with "phpsqliteuser".  If not, see <http://www.gnu.org/licenses/>.
 /*
 Settings:
 */
-const DB_FILE = '/webserver/write/access/sqllite.db';
+const DB_FILE = '/webserver/write/access/sqlite.db';
 const ADMIN_1ST_PASS = 'admin';
 
 
