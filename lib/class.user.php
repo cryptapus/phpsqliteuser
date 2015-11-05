@@ -165,7 +165,7 @@ class user {
 					($line['cookietok'] === $_COOKIE['cookietok'])) {
 					date_default_timezone_set('UTC');
 					$date = date("Y-m-d H:i:s", time());
-					$cookiehash = hash('sha256',rand());
+					$cookiehash = hash('sha256',openssl_random_pseudo_bytes());
 					$d = array(
 						'lastlogin' => $date,
 						'cookietok' => $cookiehash
